@@ -8,6 +8,7 @@ Compiler Features:
  * Commandline Interface: Enable output of storage layout with `--storage-layout`.
 
 Bugfixes:
+ * General: Restrict the size of dynamic memory arrays to 64 bits during creation fixing a possible overflow.
  * Inline Assembly: Fix internal error when accessing invalid constant variables.
  * Inline Assembly: Fix internal error when accessing functions.
  * Reference Resolver: Fix internal error when accessing invalid struct members.
